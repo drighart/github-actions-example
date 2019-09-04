@@ -1,5 +1,4 @@
-""" Dit is een API voor de Forza / New Business OKD workshop
-"""
+"""Main class"""
 import uvicorn
 from fastapi import FastAPI
 

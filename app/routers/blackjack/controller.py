@@ -1,8 +1,6 @@
 """Deze class bevat de logica om the bepalen of iets blackjack is."""
 import random
 
-#from app.routers.blackjack.api_model import Card
-
 
 class BlackJackController:
     """BlackJack controller.

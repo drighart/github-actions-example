@@ -1,4 +1,4 @@
-"""Beschrijft v1 van de API."""
+"""View on the api"""
 from fastapi import APIRouter
 
 from app.routers.blackjack.controller import BlackJackController
@@ -10,7 +10,7 @@ controller = BlackJackController() # pylint: disable=C0103
 @app.post("/")
 def check_blackjack(card1, card2): # pylint: disable=E1121
     """
-    Check of de twee opgegeven kaarten blackjack geven
+    Check the blackjack
     """
     return controller.check_blackjack(card1, card2)
 

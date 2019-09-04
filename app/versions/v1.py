@@ -1,4 +1,4 @@
-"""Initialisatie van de applicatie."""
+""" Best API ever"""
 from fastapi import FastAPI
 
 from app.routers.blackjack.api_view_v1 import app as blackjack_router
