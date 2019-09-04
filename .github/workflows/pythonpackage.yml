@@ -30,6 +30,7 @@ jobs:
         pytest
     - name: Publish to Registry
       with:
+        uses: elgohr/Publish-Docker-Github-Action@master
         name: myDocker/repository
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
